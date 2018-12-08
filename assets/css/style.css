@@ -1,0 +1,81 @@
+/*--------------------------Fonts---------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
+/*-- To use - [font-family: 'Open Sans', sans-serif;]--*/
+
+/*-- To use - [font-family: 'Comfortaa', cursive;]--*/
+
+/*--------------------------Colors---------------------*/
+
+/*--- Blue Jacket - #585a8c ---*/
+
+/*--- Mustard Jacket - #debba2 ---*/
+
+/*--- Brown Jacket - #af9683 ---*/
+
+/*--- Green Jacket - #bab18f ---*/
+
+/*--- Blue/Grey - #9398b5 ---*/
+
+.bg-color-band-title {
+    background-color: #9398b5;
+}
+
+/*-----------Special Padding/Margins/Text--------------*/
+
+h1 {
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*--------------------------Heading--------------------*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding: 54px;
+    
+}
+
+.logo {
+    background: url("/assets/images/band.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 356px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+/* Block-divider */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #ffffff;
+}
+
+/*--------------------------Hover.css------------------*/
+
+/*--------------------------Footer---------------------*/
