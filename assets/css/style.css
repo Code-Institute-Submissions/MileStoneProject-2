@@ -17,6 +17,10 @@
 
 /*--- Blue/Grey - #9398b5 ---*/
 
+body {
+    background-color: #ffffff;
+}
+
 .bg-color-band-title {
     background-color: #9398b5;
     min-width: 380px;
@@ -38,12 +42,26 @@
     background-color: #bab18f;
 }
 
+
 /*-----------Special Padding/Margins/Text--------------*/
+
+.bootstrap-override-margin {
+    margin-left: -15px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
 
 .bg-color-band-title {
     background-color: #9398b5;
     min-width: 380px;
 }
+
+/*header {
+    margin: 0;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}*/
 
 h1 {
     margin-top: 10px;
@@ -61,14 +79,13 @@ h4 {
     text-transform: uppercase;
 }
 
+/*footer {
+    margin: 0;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}*/
 
 /*--------------------------Heading--------------------*/
-
-header {
-    margin: 0;
-}
-
-
 
 .heading {
     margin-left: 20px;
@@ -76,16 +93,17 @@ header {
     font-family: 'Comfortaa', sans-serif;
     color: #ffffff;
     text-align: center;
+
 }
 
 .logo {
 
     background: url("/assets/images/band.jpg");
-    background-position: center;
+    background-position: -42px -23px;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
-    max-width: 410px;
+    height: 360px;
+    width: 119%;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -216,28 +234,110 @@ header {
 
 
 
-/*--------------------------Footer---------------------*/
+/*----------------------------Footer----------------------*/
+
+footer {
+    background-color: #9398b5;
+    font-family: 'Comfortaa', sans-serif;
+    color: #ffffff;
+    min-height: 80px;
+    margin: 0;
+    text-align: center;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    /*Circle*/
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #debba2;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #585a8c;
+}
+
+#footer-details {
+    margin: 20px;
+}
 
 /*--------------------------Media Queries--------------*/
 
-@media(min-width: 992px) {
+@media(min-width: 768px) {
+    /*--Swap the Logo and Title Around--*/
+    #BandTitle {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    /*----Margin and Positioning----*/
+    /*-------Header-------*/
     .heading {
         margin-left: 30px;
         margin-right: 30px;
-        /*font-family: 'Open Sans', sans-serif;*/
+        /*font-family: 'Open Sans', sans-serif; */
         color: black;
         text-align: center;
+    }
+
+    .logo {
+        background-position: 0px 0px;
+        height: 250px;
+        width: 290px;
+    }
+
+    h1 {
+        margin-top: 30px;
+        text-transform: uppercase;
 
     }
+
+    .bg-color-band-title {
+
+        height: 250px;
+    }
+    /*-------Footer-------*/
 }
 
-@media(min-width: 768px) {
+@media(min-width: 992px) {
+
+    /*----Margin and Positioning----*/
+    /*-------Header-------*/
+    .col-sm-3 {
+        width: 23%;
+    }
+
     .heading {
-        margin-left: 30px;
-        margin-right: 30px;
-        color: black;
+        margin-right: 204px;
+    }
+
+    .bg-color-band-title {
+
+        min-width: 100%;
+    }
+
+    .logo {
+        background-position: 0px 0px;
+    }
+
+    .col-md-pull-8 {
+        right: 37.666667%;
     }
 }
+
+
 
 /* Extra small devices (phones, less than 768px) */
 
