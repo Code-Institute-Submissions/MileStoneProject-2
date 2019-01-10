@@ -17,8 +17,12 @@
 
 /*--- Blue/Grey - #9398b5 ---*/
 
+header { background-color: #ffffff;}
+footer { background-color: #9398b5;}
+
 body {
-    background-color: #ffffff;
+    background-color: #9297b79e;
+    color: #ffffff;
 }
 
 .bg-color-band-title {
@@ -41,6 +45,11 @@ body {
 .ui-menu-color-fan-feedback {
     background-color: #bab18f;
 }
+
+.bg-color-about-us {
+    background-color: #585a8c;
+}
+
 
 
 /*-----------Special Padding/Margins/Text--------------*/
@@ -156,6 +165,10 @@ h4 {
 
 #nav {
     margin: 0;
+}
+
+.navbar {
+    margin-bottom: 0px;
 }
 
 #nav li {
@@ -355,4 +368,14 @@ footer {
 
 @media (min-width: @screen-lg-min) {
     ...
+}
+
+/*----------------------------About Us----------------------*/
+.about-us-icon {
+    font-size: 26px;
+    color: #9398b5;
+}
+
+.about-us-heading {
+    margin-bottom: 15px;
 }
