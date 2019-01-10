@@ -49,9 +49,20 @@ body {
 .bg-color-about-us {
     background-color: #585a8c;
 }
+.bg-color-events {
+    background-color: #debba2;
+}
+.bg-color-mediacat{
+    background-color: #af9683;
+}
 
+.bg-color-fanfeedback {
+    background-color: #bab18f;
+}
 
-
+.inline-block{
+    color: #fffffff;
+}
 /*-----------Special Padding/Margins/Text--------------*/
 
 .bootstrap-override-margin {
@@ -378,4 +389,46 @@ footer {
 
 .about-us-heading {
     margin-bottom: 15px;
+}
+
+/*----------------------------Events----------------------*/
+.events-icon {
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.events-heading {
+    margin-bottom: 15px;
+}
+
+/*----------------------------Media Catalog----------------------*/
+.mediacat-icon {
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.mediacat-heading {
+    margin-bottom: 15px;
+}
+
+/*---------------Image Gallery-------------------------*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
