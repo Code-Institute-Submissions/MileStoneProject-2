@@ -73,6 +73,12 @@ body {
 
 /*-----------Special Padding/Margins/Text--------------*/
 
+.container-fluid {
+
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
 .bootstrap-override-margin {
     margin-left: -15px;
     padding-left: 0px !important;
@@ -100,7 +106,7 @@ h1 {
 h2,
 h3,
 h4 {
-    margin: 0;
+    margin: 15px;
 }
 
 .uppercase {
@@ -147,7 +153,7 @@ h4 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 46px;
-    margin-top: 10;
+    margin-top: 25px;
     color: #ffffff;
     font: bold;
 }
@@ -391,6 +397,11 @@ footer {
     .col-md-pull-8 {
         right: 37.666667%;
     }
+    .video {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 
@@ -453,6 +464,11 @@ footer {
 
 .mediacat-heading {
     margin-bottom: 15px;
+}
+
+.video {
+    width: 100%;
+    height: auto;
 }
 
 .videoplayer {
