@@ -9,7 +9,7 @@
 
 /*--- Blue Jacket - #585a8c ---*/
 
-/*--- Mustard Jacket - #debba2 ---*/
+/*--- Mustard Jacket - #b77d5a ---*/
 
 /*--- Brown Jacket - #af9683 ---*/
 
@@ -17,8 +17,13 @@
 
 /*--- Blue/Grey - #9398b5 ---*/
 
-header { background-color: #ffffff;}
-footer { background-color: #9398b5;}
+header {
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #9398b5;
+}
 
 body {
     background-color: #9297b79e;
@@ -35,7 +40,7 @@ body {
 }
 
 .ui-menu-color-events {
-    background-color: #debba2;
+    background-color: #b77d5a;
 }
 
 .ui-menu-color-media-catalog {
@@ -49,10 +54,12 @@ body {
 .bg-color-about-us {
     background-color: #585a8c;
 }
+
 .bg-color-events {
-    background-color: #debba2;
+    background-color: #b77d5a;
 }
-.bg-color-mediacat{
+
+.bg-color-mediacat {
     background-color: #af9683;
 }
 
@@ -60,9 +67,10 @@ body {
     background-color: #bab18f;
 }
 
-.inline-block{
+.inline-block {
     color: #fffffff;
 }
+
 /*-----------Special Padding/Margins/Text--------------*/
 
 .bootstrap-override-margin {
@@ -164,6 +172,15 @@ h4 {
 
 .block-divider {
     width: 100px;
+    height: 1px;
+    border: 0;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.block-divider-lg {
+    width: 25%;
     height: 1px;
     border: 0;
     background-color: #ffffff;
@@ -382,6 +399,7 @@ footer {
 }
 
 /*----------------------------About Us----------------------*/
+
 .about-us-icon {
     font-size: 26px;
     color: #9398b5;
@@ -392,6 +410,7 @@ footer {
 }
 
 /*----------------------------Events----------------------*/
+
 .events-icon {
     font-size: 26px;
     color: #ffffff;
@@ -402,6 +421,7 @@ footer {
 }
 
 /*----------------------------Media Catalog----------------------*/
+
 .mediacat-icon {
     font-size: 26px;
     color: #ffffff;
@@ -412,23 +432,24 @@ footer {
 }
 
 /*---------------Image Gallery-------------------------*/
+
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+    border: 1px solid #777;
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
+    padding: 15px;
+    text-align: center;
 }
