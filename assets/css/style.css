@@ -124,6 +124,9 @@ h4 {
     text-align: center;
 }
 
+p {
+    text-align: center;
+}
 /*--------------------------Heading--------------------*/
 
 .heading {
@@ -453,7 +456,7 @@ footer {
 }
 
 /*----------------------------Media Catalog----------------------*/
-
+/*---
 .mediacat-icon {
     font-size: 26px;
     color: #ffffff;
@@ -461,7 +464,7 @@ footer {
     padding-top: 50%;
     padding-left: 50%;
 }
-
+---*/
 .mediacat-heading {
     margin-bottom: 15px;
 }
