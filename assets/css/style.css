@@ -127,6 +127,7 @@ h4 {
 p {
     text-align: center;
 }
+
 /*--------------------------Heading--------------------*/
 
 .heading {
@@ -145,7 +146,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 360px;
-    width: 119%;
+    width: 125%;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -194,7 +195,7 @@ p {
 }
 
 .block-divider-lg {
-    width: 10%;
+    width: 25%;
     height: 3px;
     border: 0;
     background-color: #ffffff;
@@ -384,9 +385,7 @@ footer {
         width: 23%;
     }
 
-    .heading {
-        margin-right: 204px;
-    }
+
 
     .bg-color-band-title {
 
@@ -396,9 +395,8 @@ footer {
     .logo {
         background-position: 0px 0px;
     }
-
     .col-md-pull-8 {
-        right: 37.666667%;
+        right: 5.666667%;
     }
     .video {
         width: 100%;
@@ -423,9 +421,7 @@ footer {
 
 /* Large devices (large desktops, 1200px and up) */
 
-@media (min-width: @screen-lg-min) {
-    ...
-}
+@media (min-width: @screen-lg-min) {}
 
 /*----------------------------About Us----------------------*/
 
@@ -456,6 +452,7 @@ footer {
 }
 
 /*----------------------------Media Catalog----------------------*/
+
 /*---
 .mediacat-icon {
     font-size: 26px;
@@ -465,6 +462,7 @@ footer {
     padding-left: 50%;
 }
 ---*/
+
 .mediacat-heading {
     margin-bottom: 15px;
 }
