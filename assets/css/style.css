@@ -145,7 +145,7 @@ p {
 
 .logo {
 
-    background: url("/assets/images/band.jpg");
+    background: url("assets/images/band.jpg");
     background-position: -42px -23px;
     background-repeat: no-repeat;
     background-size: cover;
