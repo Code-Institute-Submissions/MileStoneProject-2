@@ -18,7 +18,7 @@
 /*--- Blue/Grey - #9398b5 ---*/
 
 header {
-    background-color: #ffffff;
+    background-color: #9398b5;
 }
 
 footer {
@@ -26,7 +26,7 @@ footer {
 }
 
 body {
-    background-color: #9297b79e;
+    background-color: #9398b5;
     color: #ffffff;
 }
 
@@ -137,6 +137,10 @@ p {
     color: #ffffff;
     text-align: center;
 
+}
+
+.headcon{
+    width: 100%;
 }
 
 .logo {
@@ -377,11 +381,12 @@ footer {
     /*-------Footer-------*/
 }
 
+
 @media(min-width: 992px) {
 
     /*----Margin and Positioning----*/
     /*-------Header-------*/
-    .col-sm-3 {
+/*---    .col-sm-3 {
         width: 23%;
     }
 
@@ -403,7 +408,7 @@ footer {
         height: auto;
     }
 
-}
+}--*/
 
 
 
