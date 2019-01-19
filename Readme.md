@@ -58,8 +58,14 @@ Pictures, Music, Videos
 ##### Fan Feedback
 Opportunity for Fans to publish comments, and join them on social media pages
 
+### Wireframes
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Located in the /assets/plans/
+
+is a pdf file called Bandwireframe.pdf
+
+This shows my basic idea of how i wanted my pages to look like.  I created the wireframe in powerpoint and exported it as an pdf file.
+
 
 ## Features
 
@@ -80,9 +86,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+    Using the Old Bootstrap Version <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    Using the Font Awesome so I can put icons in https://fontawesome.com/ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    Using the Hover SFX - http://ianlunn.github.io/Hover/  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    Using my custom style sheet <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
 ## Testing
 
@@ -108,10 +116,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+Originally I just used it in Cloud9, however I was told I could host it through Gitpages.
+
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
@@ -119,10 +125,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+The information I have found for this project regarding the band was found on Wikipedia. https://en.wikipedia.org/wiki/The_Monkees
 
 ### Media
 
+I was provided images, audio files and video files from the code instute for this task.
 
 ### Acknowledgements
 
