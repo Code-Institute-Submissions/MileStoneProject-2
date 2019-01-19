@@ -69,7 +69,11 @@ This shows my basic idea of how i wanted my pages to look like.  I created the w
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+I have four pages,
+About us - This gives a bit of history to the band.
+Events - This gives information about what they have been doing for the past few decades.
+Media Catalog - This gives the user the ability to listen / download audio files and watch the video in a browser window.  I have also put the images in a CSS Gallery.
+Fan Feedback - This is going to be an area where people can leave comments etc.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -80,7 +84,8 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+I have left the Social links in the footers ready to implement in the future.
+These social links include Facebook, Twitter and YouTube.
 
 ## Technologies Used
 
