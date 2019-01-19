@@ -75,15 +75,16 @@ Events - This gives information about what they have been doing for the past few
 Media Catalog - This gives the user the ability to listen / download audio files and watch the video in a browser window.  I have also put the images in a CSS Gallery.
 Fan Feedback - This is going to be an area where people can leave comments etc.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+### Feature 1 - Sign up box
+I have created a signup box using Java Script so that people have the ability to eventually sign in and post messages on a forum style board.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
+
+#### Forum Board
+I would like to setup a forum board that people have to login into instead of making a post all board, this stops anonymous abuse of the board.
+
+#### Social Links
 I have left the Social links in the footers ready to implement in the future.
 These social links include Facebook, Twitter and YouTube.
 
@@ -96,6 +97,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     Using the Hover SFX - http://ianlunn.github.io/Hover/  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     Using my custom style sheet <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    Using jquery for Modal Box - <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
 ## Testing
 
