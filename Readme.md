@@ -14,10 +14,12 @@ Photos of the band members
 A video clip
 Audio clips
 Also, they are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
- 
+
 ## UX
- 
-### Sections 
+
+This is the User Interface, I have created a wireframe in a PDF file that can be found /assets/plans/Bandwireframe.pdf
+
+### Sections
 
 I have chosen a one of the band pictures given to me.  I have chosen the one with all four of them on, I thought it would be a good idea to use their jacket colours to colour my four different pages.  I have also designed the navigation bar to match the jacket colours as they appear on the picture when viewed on a small device.
 
@@ -34,6 +36,7 @@ This design has been followed for the following pages.
 I used icons as well however I struggled to get them to line up properly so in the end I removed them and came up with the design I have finished with.  In the future I would like to add icons, that is something I would like to work towards learning.
 
 #### Events
+
 Also, the band would like to use the site to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
 
 As I write this I have forgotten to actually do the above request.  So I will make that fix that now.
@@ -41,37 +44,49 @@ As I write this I have forgotten to actually do the above request.  So I will ma
 Fixed that issue, had a problem with how it views because it was coming up as two different styles.  
 
 #### Media Catalog
+
 Their primary target audiences are their fans and potential fans who wish to use the site to see and hear clips from their back catalog, and any new material as it becomes available.
 
+I have seperated them into different file formats:
+Audio;
+Video;
+Images;
 
+With the different players in the browser, I had to change the width of the players.  This was because on a smaller device the players would exceed the width of the screen.  Making the UX poor because it would not stay with in the boundary of the device.  Had some issues with trying to set the width in CSS so I had to directly input the width in the HTML code.
+
+I used CSS to create the Image Gallery.
 
 #### Fan Feedback
-Fans can post comments about their favourite Monkees Song
+
+Fans can post comments about their favourite Monkees Song.
+
+I have created a signup box using Java Script so that people have the ability to eventually sign in and post messages on a forum style board.
 
 ### User Goals
 
 #### I want to provide information about
 
 ##### The Band
+
 History, Members etc
 
-##### Events
-Places they have played at in what year
+##### Past Events
+
+Places they have played at in what year and to give the User a chance to get in touch with the Band.
 
 ##### Media
+
 Pictures, Music, Videos
 
-##### Fan Feedback
+##### Fan Feed back
+
 Opportunity for Fans to publish comments, and join them on social media pages
 
 ### Wireframes
 
-Located in the /assets/plans/ 
-
-is a pdf file called Bandwireframe.pdf
+Located in the This is the User Interface, I have created a wireframe in a PDF file that can be found /assets/plans/Bandwireframe.pdf
 
 This shows my basic idea of how i wanted my pages to look like.  I created the wireframe in powerpoint and exported it as an pdf file.
-
 
 ## Features
 
@@ -80,17 +95,23 @@ About us - This gives a bit of history to the band.
 Events - This gives information about what they have been doing for the past few decades.
 Media Catalog - This gives the user the ability to listen / download audio files and watch the video in a browser window.  I have also put the images in a CSS Gallery.
 Fan Feedback - This is going to be an area where people can leave comments etc.
- 
+
 ### Feature 1 - Sign up box
+
 I have created a signup box using Java Script so that people have the ability to eventually sign in and post messages on a forum style board.
 
+### Feature 2 - Get in touch box
+
+I have created a get in touch box using Java Script so that people have the ability to get in touch with the band so that they can respond to the user.
 
 ### Features Left to Implement
 
 #### Forum Board
+
 I would like to setup a forum board that people have to login into instead of making a post all board, this stops anonymous abuse of the board.
 
 #### Social Links
+
 I have left the Social links in the footers ready to implement in the future.
 These social links include Facebook, Twitter and YouTube.
 
@@ -127,24 +148,39 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Originally I just used it in Cloud9 <https://aws.amazon.com/cloud9/?origin=c9io>, however I was told I could host it through Gitpages <https://github.com/>.
 
-Originally I just used it in Cloud9, however I was told I could host it through Gitpages.
+I have also built a Raspiberry Pi that could be a Local Web Server, the only thing I was waiting for my ISP to give me a Static IP Address. <https://www.makeuseof.com/tag/host-website-raspberry-pi/>
 
+Then while I was talking to my Mentor, he told me about Visual Studio Code <https://code.visualstudio.com/>.  
+That is what im currently using to finish this project.
+
+I have also downloaded various Apps on my Android Phone to do my coding on the go.
+
+anWriter - <https://play.google.com/store/apps/details?id=com.ansm.anwriter>
+This is an editor for HTML, CSS and Java.
+
+Learning Bootstrap - <https://play.google.com/store/apps/details?id=shubham.learningbootstrap>
+Offline information about Bootstrap
+
+Openhub for Github - <https://play.google.com/store/apps/details?id=com.thirtydegreesray.openhub>
+Allows access to Github
+
+Forker - <https://play.google.com/store/apps/details?id=ch.phcoder.jigit>
+Allows access to Github, and also to allow committing file changes.
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
-
 
 ## Credits
 
 ### Content
 
-The information I have found for this project regarding the band was found on Wikipedia. https://en.wikipedia.org/wiki/The_Monkees
+The information I have found for this project regarding the band was found on Wikipedia. <https://en.wikipedia.org/wiki/The_Monkees>
 
-### Media
+### Media for Project
 
 I was provided images, audio files and video files from the code instute for this task.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+Thank you to my Mentor - Ricardo Quichocho Gallegos (Tech Mentor at Code Institute).
