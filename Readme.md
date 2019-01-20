@@ -18,11 +18,13 @@ Also, they are in the process of creating a social media presence and would like
 ## UX
  
 ### Sections 
+
 I have chosen a one of the band pictures given to me.  I have chosen the one with all four of them on, I thought it would be a good idea to use their jacket colours to colour my four different pages.  I have also designed the navigation bar to match the jacket colours as they appear on the picture when viewed on a small device.
 
 I also have made it so that on a small device the Title text would come before the picture, but if viewed on a bigger device the picture would come before the Title text.  This was an after thought because I forgot to start with a Mobile first design in mind.  Then realised afterwards and thats where the adjustment came in.
 
 #### About us (Home Page)
+
 The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world.
 
 The information was grabbed from Wikipedia, I added in the line breaks in afterwards after feedback from my mentor that its not good for a UX if theres blocks of words for people to read.  So I added in 2 types of Lines, the first that is thicker and takes up 100% of the window width.  The second takes up a smaller percentage and is a bit thinner.
@@ -36,8 +38,12 @@ Also, the band would like to use the site to showcase their music and publicise 
 
 As I write this I have forgotten to actually do the above request.  So I will make that fix that now.
 
+Fixed that issue, had a problem with how it views because it was coming up as two different styles.  
+
 #### Media Catalog
 Their primary target audiences are their fans and potential fans who wish to use the site to see and hear clips from their back catalog, and any new material as it becomes available.
+
+
 
 #### Fan Feedback
 Fans can post comments about their favourite Monkees Song
