@@ -121,10 +121,11 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
 Originally I just used it in Cloud9, however I was told I could host it through Gitpages.
 
+I started using github pages but found issues with displaying my band image.
+
+I also built a raspberry pi as a webserver to host my webpage, this worked however it was only a local server as I havent setup port forwarding on my router.
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
