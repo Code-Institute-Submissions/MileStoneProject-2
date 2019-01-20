@@ -91,16 +91,9 @@ body {
     min-width: 380px;
 }
 
-/*header {
-    margin: 0;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}*/
-
 h1 {
     margin-top: 10px;
     text-transform: uppercase;
-
 }
 
 h2,
@@ -113,12 +106,6 @@ h4 {
     text-transform: uppercase;
     text-align: center;
 }
-
-/*footer {
-    margin: 0;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}*/
 
 .center {
     text-align: center;
@@ -139,12 +126,11 @@ p {
 
 }
 
-.headcon{
+.headcon {
     width: 100%;
 }
 
 .logo {
-
     background: url("https://jjackson19862017.github.io/MileStoneProject/assets/images/band.jpg");
     background-position: -42px -23px;
     background-repeat: no-repeat;
@@ -377,38 +363,7 @@ footer {
 
         height: 250px;
     }
-    /*-------Video Player-------*/
-    /*-------Footer-------*/
 }
-
-
-@media(min-width: 992px) {
-
-    /*----Margin and Positioning----*/
-    /*-------Header-------*/
-/*---    .col-sm-3 {
-        width: 23%;
-    }
-
-
-
-    .bg-color-band-title {
-
-        min-width: 100%;
-    }
-
-    .logo {
-        background-position: 0px 0px;
-    }
-    .col-md-pull-8 {
-        right: 5.666667%;
-    }
-    .video {
-        width: 100%;
-        height: auto;
-    }
-
-}--*/
 
 
 
@@ -425,8 +380,6 @@ footer {
 /*@media (min-width: @screen-md-min) { ... }*/
 
 /* Large devices (large desktops, 1200px and up) */
-
-@media (min-width: @screen-lg-min) {}
 
 /*----------------------------About Us----------------------*/
 
@@ -457,16 +410,6 @@ footer {
 }
 
 /*----------------------------Media Catalog----------------------*/
-
-/*---
-.mediacat-icon {
-    font-size: 26px;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 50%;
-    padding-left: 50%;
-}
----*/
 
 .mediacat-heading {
     margin-bottom: 15px;
@@ -505,12 +448,13 @@ footer {
 }
 
 /*---------------Fan Feedback------------------------*/
+
 .modal-title {
     color: black;
 }
 
 .form-group {
-    color:black;
+    color: black;
 }
 
 /* Buttons */
