@@ -71,6 +71,10 @@ body {
     color: #ffffff;
 }
 
+.lighter-shade {
+    background-color: #9398b5;
+}
+
 /*-----------Special Padding/Margins/Text--------------*/
 
 .container-fluid {
@@ -118,12 +122,16 @@ p {
 .narrower {
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: -15px;
 }
 
 .information-box{
     padding-bottom: 10px;
 }
 
+.big-width {
+    width: 100%
+}
 /*------------------ Alert ----------------------*/
 
 .alert-container .col-xs-12 {
