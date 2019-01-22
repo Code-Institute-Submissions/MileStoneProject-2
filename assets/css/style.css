@@ -115,6 +115,10 @@ p {
     text-align: center;
 }
 
+.narrower {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /*--------------------------Heading--------------------*/
 
 .heading {
