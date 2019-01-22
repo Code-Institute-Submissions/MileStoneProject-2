@@ -119,6 +119,10 @@ p {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.information-box{
+    padding-bottom: 10px;
+}
 /*--------------------------Heading--------------------*/
 
 .heading {
