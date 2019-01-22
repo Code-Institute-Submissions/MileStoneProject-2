@@ -1,6 +1,30 @@
 # MileStone Project
 
-## The Brief
+## Table of Contents
+
+1. [Brief](#Brief)
+1. [UX](#UX)
+    1. [Sections](#Sections)
+        1. [About us](#About-us)
+        1. [Events](#Events)
+        1. [Media Catalog] (#Media-Catalog)
+        1. [Fan Feedback] (#Fan-Feedback)
+    1. [Wireframes](#Wireframes)
+1. [Features](#Features)
+    1. [Feature 1 - Sign up Box](#Feature-1-Sign-up-box)
+    1. [Feature 2 - Get in touch box](#Feature-2-Get-in-touch-box)
+    1. [Features Left to Implement](#Features-left-to-Implement)
+        1. [Forum Board](#Forum-Board)
+        1. [Social Links](#Social-Links)
+1. [Technologies Used](#Technologies-Used)
+1. [Testing](#Testing)
+    1. [Small Device layout change](#Small-Device-layout-Change)
+    1. [Join us box](#Join-us-box)
+    1. [Sign up box](#Sign-up-box)
+1. [Deployment](#Deployment)
+1. [Content](#Content)
+
+## Brief
 
 CREATE A WEBSITE FOR A BAND
 Build a static (front-end only) website for a band. As a starting point, you may want to use wireframes, as we did in the UX lesson (you can use Balsamiq or any other tool, including just pen and paper).
@@ -35,7 +59,7 @@ On a small device the Title text would come before the picture, but if viewed on
 This was an after thought because originally forgot to start with a Mobile first design in mind.  
 Then realised afterwards and thats where the adjustment came in.
 
-#### About us (Home Page)
+#### About us
 
 The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world.
 
@@ -72,26 +96,6 @@ CSS was used to create the Image Gallery.
 Fans can post comments about their favourite Monkees Song.
 
 A sign up box was created using Java Script so that people have the ability to eventually sign in and post messages on a forum style board.
-
-### User Goals
-
-#### What people could learn
-
-##### The Band
-
-History, Members etc
-
-##### Past Events
-
-Places they have played at in what year and to give the User a chance to get in touch with the Band.
-
-##### Media
-
-Pictures, Music, Videos
-
-##### Fan Feed back
-
-Opportunity for Fans to publish comments, and join them on social media pages
 
 ### Wireframes
 
@@ -168,7 +172,24 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Small Device layout change
+
+On a smaller device, It looked horrible from a design point to have the image before the title text.  It took a while and help from the Slack Community to get it to the finished product.
+
+    1. open index.html in browser window:
+    2. drag window so that the size of the browser changes width to see the change
+
+### Join us box
+
+    1. Go to Events page
+    2. Scroll to the bottom of the page
+    3. Click on the "Join us" button
+
+### Sign up box
+
+    1. Go to Fanfeedback page
+    2. Scroll to the bottom of the page
+    3. Click on the "Sign up!" button
 
 ## Deployment
 
