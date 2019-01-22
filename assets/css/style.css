@@ -123,6 +123,31 @@ p {
 .information-box{
     padding-bottom: 10px;
 }
+
+/*------------------ Alert ----------------------*/
+
+.alert-container .col-xs-12 {
+    padding-left: 15;
+    padding-right: 15;
+    text-align: center;
+}
+
+.site-wide-alert {
+    color: #ffffff;
+    background-color: red;
+    border-color: red;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.btn--alert {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 100px;
+}
+
 /*--------------------------Heading--------------------*/
 
 .heading {
