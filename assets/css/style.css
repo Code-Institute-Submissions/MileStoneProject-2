@@ -78,8 +78,11 @@ body {
 .lighter-shade-media {
     background-color: #e6c7b0;
 }
+
 .table-striped>tbody>tr:nth-of-type(odd) {
-    background-color: #e6c7b0 !important;}
+    background-color: #e6c7b0 !important;
+}
+
 /*-----------Special Padding/Margins/Text--------------*/
 
 .container-fluid {
@@ -130,13 +133,18 @@ p {
     margin-bottom: -15px;
 }
 
-.information-box{
+.information-box {
     padding-bottom: 10px;
 }
 
 .big-width {
     width: 100%
 }
+
+.no-margin {
+    margin-bottom: 0px !important;
+}
+
 /*------------------ Alert ----------------------*/
 
 .alert-container .col-xs-12 {
