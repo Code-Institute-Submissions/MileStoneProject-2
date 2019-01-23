@@ -71,8 +71,12 @@ body {
     color: #ffffff;
 }
 
-.lighter-shade {
+.lighter-shade-about-us {
     background-color: #9398b5;
+}
+
+.lighter-shade-media {
+    background-color: #e6c7b0;
 }
 
 /*-----------Special Padding/Margins/Text--------------*/

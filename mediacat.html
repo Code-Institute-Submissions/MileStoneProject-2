@@ -19,6 +19,16 @@
 </head>
 
 <body>
+    <!-- Alert -->
+    <div class="container-fluid alert-container hidden-xs">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="site-wide-alert alert alert-warning">
+                    <strong>Having a Wedding or Christmas Party?</strong> Let us know if you would like us to play for you. <button class="btn btn-sm btn--alert btn--grey" data-toggle="modal" data-target="#signUpModal">Get in touch</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Header -->
     <header class="container headcon">
         <div class="row">
@@ -64,138 +74,140 @@
 
 
     <section class="container-fluid bg-color-mediacat information-box">
-        <div class="col-xs-12 col-sm-12 ">
+        <div class="col-sm-12 bg-color-media">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-12">
                     <h3 class="section-heading uppercase">Media Catalog</h3>
-                    <hr class="block-divider block-divider-media">
+                </div>
+                <hr class="block-divider block-divider-media">
+
+            </div>
+            <div class="row narrower">
+                <div class="col-sm-12 bg-color-Media">
+                    <h4 class="mediacat-heading uppercase">Music</h4>
+                </div>
+                <hr class="block-divider block-divider-lg">
+            </div>
+            <div class="row">
+                <div class="audio col-sm-12 col-md-6 center">
+                    <h3 class="mediacat-heading">Clarksville</h3>
+                    <p class="inline-block">
+                        <audio controls style="width: 225px" ;>
+                                        <source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
+                                    </audio>
+                    </p>
+                </div>
+                <div class="audio col-sm-12 col-md-6 center">
+                    <h3 class="mediacat-heading">Daydream Believer</h3>
+                    <p class="inline-block">
+                        <audio controls style="width: 225px" ;>
+                                        <source src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                                    </audio>
+                    </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-12 col-md-12">
-                    <div class="row">
-                        <div class="col-sm-12">
-
-                            <h4 class="mediacat-heading uppercase">Music</h4>
-                            <hr class="block-divider block-divider-lg">
-                            <div class="col-sm-12">
-                                <div class="row">
-                                    <div class="audio col-sm-12 center">
-                                        <h3 class="mediacat-heading">Clarksville</h3>
-                                        <p class="inline-block">
-                                            <audio controls style="width: 225px" ;>
-                                        <source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
-                                    </audio>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="audio col-sm-12 center">
-                                        <h3 class="mediacat-heading">Daydream Believer</h3>
-                                        <p class="inline-block">
-                                            <audio controls style="width: 225px" ;>
-                                        <source src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
-                                    </audio>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="audio col-sm-12 center">
-                                        <h3 class="mediacat-heading">Im A Believer</h3>
-                                        <p class="inline-block">
-                                            <audio controls style="width: 225px" ;>
+                <div class="audio col-sm-12 col-md-6 center">
+                    <h3 class="mediacat-heading">Im A Believer</h3>
+                    <p class="inline-block">
+                        <audio controls style="width: 225px" ;>
                                         <source src="assets/audio/ImABeliever.mp3" type="audio/mpeg">
                                     </audio>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="audio col-sm-12 center">
-                                        <h3 class="mediacat-heading">Stepping Stone</h3>
-                                        <p class="inline-block">
-                                                <audio controls style="width: 225px" ;>
+                    </p>
+                </div>
+                <div class="audio col-sm-12 col-md-6 center">
+                    <h3 class="mediacat-heading">Stepping Stone</h3>
+                    <p class="inline-block">
+                        <audio controls style="width: 225px" ;>
                                             <source src="assets/audio/SteppingStone.mp3" type="audio/mpeg">
                                             </audio>
-                                            
-                                    </p>
-                                    <hr class="block-divider block-divider-media">
-                                </div></div>
-                            </div>
-                        </div>
-                    </div>
+                    </p>
                 </div>
+            </div>
+            <hr class="block-divider block-divider-media">
+        </div>
 
-                <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-12 col-md-12">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h4 class="mediacat-heading uppercase">Movies</h4>
-                            <hr class="block-divider block-divider-lg">
-                            <div class="videoplayer">
-                                <video width="240" controls style="max-width: 75%;width: 100%;">
+        <div class="row">
+            <div class="col-sm-12 lighter-shade-media">
+                <div class="col-sm-12 lighter-shade-media">
+
+                    <h4 class="mediacat-heading uppercase">Movies</h4>
+                    <hr class="block-divider block-divider-lg">
+                    <div class="videoplayer">
+                        <video width="240" controls style="max-width: 75%;width: 100%;">
                                 <source src="assets/video/TheMonkees.mp4" type="video/mp4"> Your browser does not support the video tag.
                                 </video>
-                            </div>
-                            <hr class="block-divider block-divider-media">
+                    </div>
+
+                </div>
+
+            </div>
+            <hr class="block-divider block-divider-media">
+        </div>
+        <div class="col-sm-12 bg-color-media">
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <h4 class="media-heading uppercase">Images</h4>
+                    <hr class="block-divider block-divider-lg">
+                    <div class="col-sm-12 col-md-3">
+                        <div class="gallery">
+                            <a target="_blank" href="assets/images/album.jpg"><img src="assets/images/album.jpg" alt="Greatest Hits" width="300" height="200"></a>
+                            <div class="desc">More greatest hits of the Monkees</div>
+                        </div>
+
+                        <div class="gallery">
+                            <a target="_blank" href="assets/images/album2.jpg"><img src="assets/images/album2.jpg" alt="Very Best" width="300" height="200"></a>
+                            <div class="desc">The very best of the Monkees</div>
+                        </div>
+
+                        <div class="gallery">
+                            <a target="_blank" href="assets/images/band.jpg"><img src="assets/images/band.jpg" alt="Band Image" width="300" height="200"></a>
+                            <div class="desc">The Monkees</div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-12 col-md-12">
-                    <div class="row">
-                       <div class="col-sm-12">
-                            <h4 class="three-reasons-heading uppercase">Images</h4>
-                            <hr class="block-divider block-divider-lg">
-                            <div class="gallery">
-                                <a target="_blank" href="assets/images/album.jpg"><img src="assets/images/album.jpg" alt="Greatest Hits" width="300" height="200"></a>
-                                <div class="desc">More greatest hits of the Monkees</div>
-                            </div>
-
-                            <div class="gallery">
-                                <a target="_blank" href="assets/images/album2.jpg"><img src="assets/images/album2.jpg" alt="Very Best" width="300" height="200"></a>
-                                <div class="desc">The very best of the Monkees</div>
-                            </div>
-
-                            <div class="gallery">
-                                <a target="_blank" href="assets/images/band.jpg"><img src="assets/images/band.jpg" alt="Band Image" width="300" height="200"></a>
-                                <div class="desc">The Monkees</div>
-                            </div>
-
-                            <div class="gallery">
-                                <a target="_blank" href="assets/images/cover.jpg"><img src="assets/images/cover.jpg" alt="Greatest Hits" width="300" height="200"></a>
-                                <div class="desc">More greatest hits of the Monkees</div>
-                            </div>
-                            <div class="gallery">
-                                <a target="_blank" href="assets/images/cover2.png"><img src="assets/images/cover2.png" alt="Greatest Hits" width="300" height="200"></a>
-                                <div class="desc">More greatest hits of the Monkees</div>
-                            </div>
-                            <div class="gallery">
-                                <a target="_blank" href="assets/images/cover3.jpg"><img src="assets/images/cover3.jpg" alt="Greatest Hits" width="300" height="200"></a>
-                                <div class="desc">More greatest hits of the Monkees</div>
-                            </div>
-                            <div class="gallery">
-                                <a target="_blank" href="assets/images/dj.jpg"><img src="assets/images/dj.jpg" alt="Davy Jones" width="300" height="200"></a>
-                                <div class="desc">Davy Jones</div>
-                            </div>
-                            <div class="gallery">
-                                <a target="_blank" href="assets/images/md.jpg"><img src="assets/images/md.jpg" alt="Micky Dolenz" width="300" height="200"></a>
-                                <div class="desc">Micky Dolenz</div>
-                            </div>
-                            <div class="gallery">
-                                <a target="_blank" href="assets/images/mn.jpg"><img src="assets/images/mn.jpg" alt="Michael Nesmith" width="300" height="200"></a>
-                                <div class="desc">Michael Nesmith</div>
-                            </div>
-                            <div class="gallery">
-                                <a target="_blank" href="assets/images/monkees.jpg"><img src="assets/images/monkees.jpg" alt="Black and White Band Image" width="300" height="200"></a>
-                                <div class="desc">Stage photo</div>
-                            </div>
-                            <div class="gallery">
-                                <a target="_blank" href="assets/images/pt.jpg"><img src="assets/images/pt.jpg" alt="Peter Tork" width="300" height="200"></a>
-                                <div class="desc">Peter Tork</div>
-                            </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="gallery">
+                            <a target="_blank" href="assets/images/cover.jpg"><img src="assets/images/cover.jpg" alt="Greatest Hits" width="300" height="200"></a>
+                            <div class="desc">More greatest hits of the Monkees</div>
+                        </div>
+                        <div class="gallery">
+                            <a target="_blank" href="assets/images/cover2.png"><img src="assets/images/cover2.png" alt="Greatest Hits" width="300" height="200"></a>
+                            <div class="desc">More greatest hits of the Monkees</div>
+                        </div>
+                        <div class="gallery">
+                            <a target="_blank" href="assets/images/cover3.jpg"><img src="assets/images/cover3.jpg" alt="Greatest Hits" width="300" height="200"></a>
+                            <div class="desc">More greatest hits of the Monkees</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="gallery">
+                            <a target="_blank" href="assets/images/dj.jpg"><img src="assets/images/dj.jpg" alt="Davy Jones" width="300" height="200"></a>
+                            <div class="desc">Davy Jones</div>
+                        </div>
+                        <div class="gallery">
+                            <a target="_blank" href="assets/images/md.jpg"><img src="assets/images/md.jpg" alt="Micky Dolenz" width="300" height="200"></a>
+                            <div class="desc">Micky Dolenz</div>
+                        </div>
+                        <div class="gallery">
+                            <a target="_blank" href="assets/images/mn.jpg"><img src="assets/images/mn.jpg" alt="Michael Nesmith" width="300" height="200"></a>
+                            <div class="desc">Michael Nesmith</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="gallery">
+                            <a target="_blank" href="assets/images/monkees.jpg"><img src="assets/images/monkees.jpg" alt="Black and White Band Image" width="300" height="200"></a>
+                            <div class="desc">Stage photo</div>
+                        </div>
+                        <div class="gallery">
+                            <a target="_blank" href="assets/images/pt.jpg"><img src="assets/images/pt.jpg" alt="Peter Tork" width="300" height="200"></a>
+                            <div class="desc">Peter Tork</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
