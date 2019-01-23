@@ -78,7 +78,8 @@ body {
 .lighter-shade-media {
     background-color: #e6c7b0;
 }
-
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #e6c7b0 !important;}
 /*-----------Special Padding/Margins/Text--------------*/
 
 .container-fluid {
@@ -520,5 +521,20 @@ footer {
 .btn--grey:active:focus {
     background-color: #626497;
     border-color: #626497;
+    color: white;
+}
+
+.btn--green {
+    color: white;
+    background-color: green;
+    border-color: green;
+}
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
+    background-color: lightgreen;
+    border-color: lightgreen;
     color: white;
 }
