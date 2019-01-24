@@ -13,6 +13,7 @@
 1. [Features](#Features)
     1. [Feature 1 - Sign up Box](#Feature-1-Sign-up-box)
     1. [Feature 2 - Get in touch box](#Feature-2-Get-in-touch-box)
+    1. [Feature 3 - Events Box] (#Feature-3-Events-Box)
     1. [Features Left to Implement](#Features-left-to-Implement)
         1. [Forum Board](#Forum-Board)
         1. [Social Links](#Social-Links)
@@ -107,7 +108,7 @@ This shows my basic idea of how i wanted my pages to look like.  I created the w
 
 There are four pages,
 About us - This gives a bit of history to the band.
-Events - This gives information about what they have been doing for the past few decades.
+Events - This gives the user the chance to buy tickets for upcoming events.
 Media Catalog - This gives the user the ability to listen / download audio files and watch the video in a browser window.  I have also put the images in a CSS Gallery.
 Fan Feedback - This is going to be an area where people can leave comments etc.
 
@@ -119,7 +120,13 @@ A sign up box was created using Java Script so that people have the ability to e
 
 A get in touch box was created using Java Script so that people have the ability to get in touch with the band so that they can respond to the user.
 
+### Feature 3 - Events Box
+
+This allows the user to begin the process of purchasing tickets for events.
+
 ### Features Left to Implement
+
+Payment screen for the Events Box Form (see above)
 
 #### Forum Board
 
@@ -155,22 +162,6 @@ These are the technologies used in the project:
     This is to enable the use of The Modal Boxes with the boundaries of the lessons provided before.
 
 ## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 ### Small Device layout change
 
@@ -222,6 +213,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 The information that has been used for this project was found on Wikipedia. <https://en.wikipedia.org/wiki/The_Monkees>
 The Event Time Table information was got from <https://www.songkick.com/artists/485568-monkees/calendar>
+For Reference Information <https://www.w3schools.com/>
+For Bootstrap Refernces <https://getbootstrap.com/docs/3.3/>
 
 ### Media for Project
 
