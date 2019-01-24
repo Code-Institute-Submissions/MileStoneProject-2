@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!---Using the Old Bootstrap Version --->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <!---Using the Font Awesome so I can put icons in https://fontawesome.com/ --->
@@ -16,10 +14,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <!---Using my custom style sheet --->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="navbar.css" type="text/css" />
     <title>Monkees</title>
 
 </head>
@@ -35,37 +29,8 @@
             </div>
         </div>
     </div>
-    <!-- Small Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color=#585a8c" ;>
-        <a class="navbar-brand" href="index.html">The Monkees</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="events.html">Events</a>
-                <a class="nav-item nav-link" href="mediacat.html">Media Catalog</a>
-                <a class="nav-item nav-link" href="fanfeedback.html">Fan Feedback</a>
-            </div>
-        </div>
-    </nav>
-    <!-- Header -->
-    <!--<header class="container headcon ">
-
-        <div class="row bg-color-band-title ">
-            <div class="heading">
-                <h1 class="band-name ">The Monkees</h1>
-                <hr class="block-divider block-divider ">
-                <h3 class="est ">Est - 1966</h3>
-                <hr class="block-divider block-divider ">
-                <h3 class="members ">Peter Tork, Micky Dolenz, Davy Jones, Michael Nesmith</h3>
-            </div>
-        </div>
-
-    </header>-->
-    
-     <header class="container headcon">
+ <!-- Header -->
+    <header class="container headcon">
         <div class="row ">
             <div id="BandTitle" class="col-xs-12 col-md-10 col-md-push-2">
                 <div class="row bg-color-band-title">
@@ -74,7 +39,8 @@
                         <hr class="block-divider block-divider">
                         <h3 class="est">Est - 1966</h3>
                         <hr class="block-divider block-divider">
-                        <h3 class="members">Peter Tork, Micky Dolenz, Davy Jones, Michael Nesmith</h3>
+                         <h3 class="members">Peter Tork, Micky Dolenz,</h3>
+                        <h3 class="members">Davy Jones, Michael Nesmith</h3>
                     </div>
                 </div>
                 <a href="index.html">
@@ -87,6 +53,28 @@
         </div>
     </header>
     <!-- Header /-->
+    <!-- Nav -->
+    <nav class=" navbar navbar-default ">
+        <div class="container-fluid ">
+            <div class="row ">
+                <ul id="nav " class="list-inline clearfix no-margin">
+                    <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 ui-menu-color-home menuitem ">
+                        <a href="index.html " class="hvr-bubble-bottom "><i class="fas fa-home " aria-hidden="true "></i><span>Home</span></a>
+                    </li>
+                    <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 ui-menu-color-events menuitem ">
+                        <a href="events.html " class="hvr-bubble-bottom "><i class="far fa-calendar-alt " aria-hidden="true "></i><span>Events</span></a>
+                    </li>
+                    <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 ui-menu-color-media-catalog menuitem ">
+                        <a href="mediacat.html " class="hvr-bubble-bottom "><i class="fas fa-music " aria-hidden="true "></i><span>Media Catalog</span></a>
+                    </li>
+                    <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 ui-menu-color-fan-feedback menuitem ">
+                        <a href="fanfeedback.html " class="hvr-bubble-bottom "><i class="fas fa-comments " aria-hidden="true "></i><span>Fan Feedback</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav /-->
 
 
     <section class="container-fluid bg-color-about-us information-box ">
