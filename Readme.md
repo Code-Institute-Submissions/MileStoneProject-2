@@ -13,7 +13,7 @@
 1. [Features](#Features)
     1. [Feature 1 - Sign up Box](#Feature-1-Sign-up-box)
     1. [Feature 2 - Get in touch box](#Feature-2-Get-in-touch-box)
-    1. [Feature 3 - Events Box] (#Feature-3-Events-Box)
+    1. [Feature 3 - Events Box](#Feature-3-Events-Box)
     1. [Features Left to Implement](#Features-left-to-Implement)
         1. [Forum Board](#Forum-Board)
         1. [Social Links](#Social-Links)
