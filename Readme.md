@@ -2,7 +2,6 @@
 
 ## Table of Contents
 
-1. [Brief](#Brief)
 1. [UX](#UX)
     1. [Sections](#Sections)
         1. [About us](#About-us)
@@ -25,27 +24,6 @@
 1. [Deployment](#Deployment)
 1. [Content](#Content)
 
-## Brief
-
-CREATE A WEBSITE FOR A BAND
-Build a static (front-end only) website for a band. As a starting point, you may want to use wireframes, as we did in the UX lesson (you can use Balsamiq or any other tool, including just pen and paper).
-
-You can use either your assets or the assets within the following GitHub repo.
-
-The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world.
-You have been given the following requirements after interviews with the client’s representatives:
-Their primary target audiences are their fans and potential fans who wish to use the site to see and hear clips from their back catalog, and any new material as it becomes available.
-
-Also, the band would like to use the site to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
-
-The band has provided you, the developer, with the following assets that they would like to showcase on their website:
-
-Photos of the band members
-A video clip
-Audio clips
-
-Also, they are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
-
 ## UX
 
 This is the User Interface, the wireframe is in a PDF file that can be found /assets/plans/Bandwireframe.pdf
@@ -62,8 +40,6 @@ Then realised afterwards and thats where the adjustment came in.
 
 #### About us
 
-The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world.
-
 The information was grabbed from Wikipedia, line breaks where added in afterwards after feedback from my mentor that its not good for a UX if theres blocks of words for people to read.  
 2 types of Lines were used:
     The first that is thicker and takes up 100% of the window width.  
@@ -71,16 +47,11 @@ The information was grabbed from Wikipedia, line breaks where added in afterward
 
 This design has been followed for the following pages.
 
-Icons were used as well however complications to get them to line up properly fell beyond the time frame allotted so in the end they were removed.  
-In the future they would be added.
-
 #### Events
 
 Also, the band would like to use the site to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
 
 #### Media Catalog
-
-Their primary target audiences are their fans and potential fans who wish to use the site to see and hear clips from their back catalog, and any new material as it becomes available.
 
 The Media has been separated them into different file formats:
 Audio;
@@ -165,7 +136,7 @@ These are the technologies used in the project:
 
 ### Small Device layout change
 
-On a smaller device, It looked horrible from a design point to have the image before the title text.  It took a while and help from the Slack Community to get it to the finished product.
+On a smaller device, from a design point it looks better to have the image before the title text.  It took a while and help from the Slack Community to get it to the finished product.
 
     1. open index.html in browser window:
     2. drag window so that the size of the browser changes width to see the change
@@ -184,37 +155,20 @@ On a smaller device, It looked horrible from a design point to have the image be
 
 ## Deployment
 
-Originally I just used it in Cloud9 <https://aws.amazon.com/cloud9/?origin=c9io>, however I was told I could host it through Gitpages <https://github.com/>.
-
-I have also built a Raspiberry Pi that could be a Local Web Server, the only thing I was waiting for my ISP to give me a Static IP Address. <https://www.makeuseof.com/tag/host-website-raspberry-pi/>
-
-Then while I was talking to my Mentor, he told me about Visual Studio Code <https://code.visualstudio.com/>.  
-That is what im currently using to finish this project.
-
-I have also downloaded various Apps on my Android Phone to do my coding on the go.
-
-anWriter - <https://play.google.com/store/apps/details?id=com.ansm.anwriter>
-This is an editor for HTML, CSS and Java.
-
-Learning Bootstrap - <https://play.google.com/store/apps/details?id=shubham.learningbootstrap>
-Offline information about Bootstrap
-
-Openhub for Github - <https://play.google.com/store/apps/details?id=com.thirtydegreesray.openhub>
-Allows access to Github
-
-Forker - <https://play.google.com/store/apps/details?id=ch.phcoder.jigit>
-Allows access to Github, and also to allow committing file changes.
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+This project has been deployed on the Git Pages server <https://jjackson19862017.github.io/MileStoneProject/>
 
 ## Credits
 
 ### Content
 
-The information that has been used for this project was found on Wikipedia. <https://en.wikipedia.org/wiki/The_Monkees>
-The Event Time Table information was got from <https://www.songkick.com/artists/485568-monkees/calendar>
-For Reference Information <https://www.w3schools.com/>
-For Bootstrap References <https://getbootstrap.com/docs/3.3/>
+The information that has been used for this project was found on Wikipedia.
+-<https://en.wikipedia.org/wiki/The_Monkees>
+The Event Time Table information was got from
+-<https://www.songkick.com/artists/485568-monkees/calendar>
+For Reference Information
+-<https://www.w3schools.com/>
+For Bootstrap References
+-<https://getbootstrap.com/docs/3.3/>
 
 ### Media for Project
 
