@@ -155,7 +155,11 @@ On a smaller device, from a design point it looks better to have the image befor
 
 ## Deployment
 
-This project has been deployed on the Git Pages server <https://jjackson19862017.github.io/MileStoneProject/>
+This project has been deployed on the Git Pages server
+-<https://jjackson19862017.github.io/MileStoneProject/>
+
+This projects source code is on
+-<https://github.com/jjackson19862017/MileStoneProject>
 
 ## Credits
 
