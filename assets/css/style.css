@@ -2,14 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
 /*-- To use - [font-family: 'Open Sans', sans-serif;]--*/
+
 /*-- To use - [font-family: 'Comfortaa', cursive;]--*/
 
 /*--------------------------Colors---------------------*/
 
 /*--- Blue Jacket - #585a8c ---*/
+
 /*--- Mustard Jacket - #b77d5a ---*/
+
 /*--- Brown Jacket - #af9683 ---*/
+
 /*--- Green Jacket - #bab18f ---*/
+
 /*--- Blue/Grey - #9398b5 ---*/
 
 header {
@@ -142,8 +147,8 @@ p {
 /*------------------ Alert ----------------------*/
 
 .alert-container .col-xs-12 {
-    padding-left: 15;
-    padding-right: 15;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
 }
 
@@ -382,13 +387,12 @@ footer {
     #BandTitle {
         display: flex;
         flex-direction: row-reverse;
-}
+    }
     /*----Margin and Positioning----*/
     /*-------Header-------*/
     .heading {
         margin-left: 30px;
         margin-right: 30px;
-        /*font-family: 'Open Sans', sans-serif; */
         color: black;
         text-align: center;
         width: 100%;
@@ -411,12 +415,19 @@ footer {
 }
 
 /* Extra small devices (phones, less than 768px) */
+
 /* No media query since this is the default in Bootstrap */
+
 /* Small devices (tablets, 768px and up) */
+
 /*@media (min-width: @screen-sm-min) { ... } */
+
 /* Medium devices (desktops, 992px and up) */
+
 /*@media (min-width: @screen-md-min) { ... }*/
+
 /* Large devices (large desktops, 1200px and up) */
+
 /*----------------------------About Us----------------------*/
 
 .about-us-icon {
